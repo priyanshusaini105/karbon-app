@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "karbon": "karbon"
+  },
+  "resolutions": {
+    "graphql": "16.6.0"
+  },
+  "devDependencies": {
+    "@nuxt/image": "1.0.0-rc.1",
+    "@nuxtjs/html-validator": "^1.5.2",
+    "@tailwindcss/typography": "^0.5.10",
+    "nuxt": "^3.6.1",
+    "nuxt-icon": "^0.5.0",
+    "nuxt-lodash": "^2.5.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.4"
+  },
+  "packageManager": "yarn@3.6.3",
+  "dependencies": {
+    "@nuxtjs/color-mode": "^3.3.0",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@storipress/karbon": "^0.1.86",
+    "@vueuse/nuxt": "^10.2.0",
+    "destr": "^2.0.1",
+    "nprogress": "^0.2.0"
+  }
+}
